@@ -1,0 +1,4 @@
+MAKEFILEDIR = /NextDeveloper/Makefiles/driverkit
+MAKEFILE = Makefile.main_driver
+PRIVATE_DEFINES = -DKERNEL_PRIVATE -DDRIVER_PRIVATE
+OTHER_CFLAGS = -Wall -Wno-unused -no-precomp -I/LocalDeveloper/Headers $(PRIVATE_DEFINES)

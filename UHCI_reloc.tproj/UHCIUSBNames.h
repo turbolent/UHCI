@@ -1,0 +1,30 @@
+/* Private linkage names: UHCI and XHCI may be loaded together. */
+#ifndef UHCI_USB_NAMES_H
+#define UHCI_USB_NAMES_H
+#define USBCoreControlTransfer UHCIUSBCoreControlTransfer
+#define USBCoreDescriptorIteratorInitialize UHCIUSBCoreDescriptorIteratorInitialize
+#define USBCoreDescriptorNext UHCIUSBCoreDescriptorNext
+#define USBCoreDeviceInitialize UHCIUSBCoreDeviceInitialize
+#define USBCoreEnumerateDevice UHCIUSBCoreEnumerateDevice
+#define USBCoreReadDevice UHCIUSBCoreReadDevice
+#define USBCoreReadConfiguration UHCIUSBCoreReadConfiguration
+#define USBCoreSelectConfiguration UHCIUSBCoreSelectConfiguration
+#define USBCoreEnumerationErrorName UHCIUSBCoreEnumerationErrorName
+#define USBCoreEnumerationStageName UHCIUSBCoreEnumerationStageName
+#define USBCoreGetDescriptor UHCIUSBCoreGetDescriptor
+#define USBCoreReadLE16 UHCIUSBCoreReadLE16
+#define USBCoreSetConfiguration UHCIUSBCoreSetConfiguration
+#define USBCoreSetInterface UHCIUSBCoreSetInterface
+#define USBMassStorageCommand UHCIUSBMassStorageCommand
+#define USBMassStorageFindInterface UHCIUSBMassStorageFindInterface
+#define USBMassStorageGetMaxLUN UHCIUSBMassStorageGetMaxLUN
+#define USBMassStorageReset UHCIUSBMassStorageReset
+#define USBStorageBufferCopy UHCIUSBStorageBufferCopy
+#define USBStorageBufferMap UHCIUSBStorageBufferMap
+#define USBStorageBufferUnmap UHCIUSBStorageBufferUnmap
+#define USBStorageCDBLength UHCIUSBStorageCDBLength
+#define USBStorageSCSIExecute UHCIUSBStorageSCSIExecute
+#define USBStorageSCSIObserve UHCIUSBStorageSCSIObserve
+#define USBStorageWait UHCIUSBStorageWait
+#define USBStorageWaitTicks UHCIUSBStorageWaitTicks
+#endif
