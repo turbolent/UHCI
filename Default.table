@@ -1,6 +1,6 @@
 "Title" = "PCI UHCI USB 1.1 Storage Controller";
 "Family" = "System";
-"Version" = "0.5";
+"Version" = "0.6";
 "Location" = "";
 "Instance" = "0";
 "Driver Name" = "UHCIController";
